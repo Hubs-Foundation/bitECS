@@ -32,6 +32,7 @@
   "scripts": {
     "test": "c8 mocha test --recursive",
     "build": "node scripts/build.js",
+    "prepare": "npm run build",
     "watch": "npm run build -- -w",
     "twatch": "npm run build -- -w -t",
     "docs": "node scripts/docs.js",
